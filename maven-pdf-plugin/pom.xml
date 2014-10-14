@@ -30,7 +30,7 @@ under the License.
   </parent>
 
   <artifactId>maven-pdf-plugin</artifactId>
-  <version>1.3-SNAPSHOT</version>
+  <version>1.2.1</version>
   <packaging>maven-plugin</packaging>
 
   <name>Apache Maven PDF Plugin</name>
@@ -84,7 +84,8 @@ under the License.
 		<connection>${git.base.url}/${git.repo.name}</connection>
 		<developerConnection>${project.scm.connection}</developerConnection>
     	<url>http://svn.apache.org/viewvc/maven/plugins/trunk/maven-pdf-plugin/</url>
-	</scm>
+	  <tag>maven-pdf-plugin-1.2.1</tag>
+  </scm>
 
 	<distributionManagement>
 		<site>
