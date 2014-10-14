@@ -68,8 +68,8 @@ under the License.
 	    <mavenPluginVersion>3.2</mavenPluginVersion>
 
 		<mvn.base.url>http://darkstar.e3ag.net/mvn</mvn.base.url>
-		<mvn.releases>${mvn.base.url}/libs-release-local</mvn.releases>
-		<mvn.snapshots>${mvn.base.url}/libs-snapshot-local</mvn.snapshots>
+		<mvn.releases>${mvn.base.url}/plugins-release-local</mvn.releases>
+		<mvn.snapshots>${mvn.base.url}/plugins-snapshot-local</mvn.snapshots>
 		<artifact.context.path>${project.groupId}/${project.artifactId}/${project.version}</artifact.context.path>
 		<release-download-url>${mvn.releases}/${artifact.context.path}</release-download-url> <!-- no dots in element name -->
 		
