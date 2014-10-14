@@ -30,7 +30,7 @@ under the License.
   </parent>
 
   <artifactId>maven-pdf-plugin</artifactId>
-  <version>1.2.1</version>
+  <version>1.2-MPDF-66</version>
   <packaging>maven-plugin</packaging>
 
   <name>Apache Maven PDF Plugin</name>
@@ -72,8 +72,9 @@ under the License.
 		<mvn.snapshots>${mvn.base.url}/libs-snapshot-local</mvn.snapshots>
 		<artifact.context.path>${project.groupId}/${project.artifactId}/${project.version}</artifact.context.path>
 		<release-download-url>${mvn.releases}/${artifact.context.path}</release-download-url> <!-- no dots in element name -->
-		<git.base.url>scm:git:ssh://git@git.e3ag.net</git.base.url>
-		<git.repo.name>${project.groupId}</git.repo.name> <!-- git.repo.name does not always have to be the groupId -->
+		
+		<git.base.url>scm:git:ssh://git@github.com:lbreuss</git.base.url>
+		<git.repo.name>maven-plugins</git.repo.name> <!-- git.repo.name does not always have to be the groupId -->
 		
 		<!-- site deployment via ftp. site docu is available at http://darkstar.e3ag.net/site-docu/ -->
 		<site.deploy.base.url>ftp://darkstar.e3ag.net</site.deploy.base.url>
